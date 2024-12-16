@@ -1,0 +1,74 @@
+[
+{
+    "id": 1,
+"nombre": "Monstera",
+"precio": 50000,
+"descripcion": "Ideal para decorar interiores",
+"categoria": "ropa",
+"cantidad": 5,
+"imagen": "img/monstera.jpg"
+},
+{
+    "id": 2,
+"nombre": "Palmito",
+"precio": 80000,
+"descripcion": "Una mini palmera en tu sala",
+"categoria": "ropa",
+"cantidad": 5,
+"imagen": "img/palmito.jpg"
+},
+{
+    "id": 3,
+"nombre": "Potus",
+"precio": 50000,
+"descripcion": "refresca el ambiente",
+"categoria": "ropa",
+"cantidad": 5,
+"imagen": "img/potus.jpg"
+},
+{
+"id": 4,
+"nombre": "Sanseviera",
+"precio": 80000,
+"descripcion": "Purifica el aire de ambientes cerrados",
+"categoria": "ropa",
+"cantidad": 5,
+"imagen": "img/sanseviera.jpg"
+},
+{
+"id": 5,
+"nombre": "Helecho",
+"precio": 80000,
+"descripcion": "Ideal para el balcón",
+"categoria": "ropa",
+"cantidad": 5,
+"imagen": "img/helecho.jpg"
+},
+{
+"id": 6,
+"nombre": "Suculenta",
+"precio": 80000,
+"descripcion": "podés colecionarlas",
+"categoria": "ropa",
+"cantidad": 5,
+"imagen": "img/suculenta.jpg"
+},
+{
+"id": 7,
+"nombre": "Cactus",
+"precio": 80000,
+"descripcion": "Sobrevive a cualquier ambiente",
+"categoria": "ropa",
+"cantidad": 5,
+"imagen": "img/cactus.jpg"
+},
+{
+"id": 8,
+"nombre": "Margarita",
+"precio": 80000,
+"descripcion": "Atrae mariposas a tu patio",
+"categoria": "ropa",
+"cantidad": 5,
+"imagen": "img/margarita.jpg"
+}
+]

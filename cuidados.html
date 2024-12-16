@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- metadatos -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Alexandra Ramirez">
+    <meta name="description" content="Simulación de tienda virtual de Alexandra Ramirez">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Plantas">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuidados</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <!-- Styles para el fondo -->
+  <style>
+    body{
+    background-image: url("./img/fondo-bg.jpg");
+    background-color: #d9d9d99a;
+}
+  </style>
+  <!-- Barra de navegación -->
+    <div class="container">
+        <nav class="navbar rounded-2 m-3 p-3 navbar-expand-lg ">
+            <div class="container">
+                <img class="img-fluid img-pag rounded" src="img/icono-pagina.jfif" alt="ícono de la página">
+                <a class="navbar-brand m-2 text-light" href="#">LA PLANTA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active ms-5 text-light" aria-current="page" href="productos.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="cuidados.html">Cuidados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="index.html">Cerrar sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- plantas -->
+    <div class="container">
+        <h1 class="text-light m-5">Aprendé a cuidar tus plantas</h1>
+        <div class="row justify-content-center g-4">
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card bg-success text-light" style="width: 18rem;">
+                <img src="img/cactus.jpg" class="card-img-top" alt="imagen de cactus">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Cactus</h5>
+                  <p class="card-text">Sobrevive en casi cualquier ambiente excepto en un ambiente totalmente húmedo ya que puede pusdrirse.</p>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item bg-success text-light">Sol: Moderado o intenso</li>
+                  <li class="list-group-item bg-success text-light">Riego: 1 vez cada 2 semana</li>
+                  <li class="list-group-item bg-success text-light">Ubicación: Afuera o adentro</li>
+                </ul>
+                <div class="card-body">
+                  <a href="productos.html" class="card-link text-light">Ir a la tienda</a>
+                </div>
+              </div>
+          </div>
+        <!-- card 1 -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card bg-success text-light" style="width: 18rem;">
+                <img src="img/helecho.jpg" class="card-img-top" alt="imagen de helecho">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Helecho</h5>
+                  <p class="card-text">Puede llegar a ser enorme si se cuida adecuadamente.</p>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item bg-success text-light">Sol: media sombra</li>
+                  <li class="list-group-item bg-success text-light">Riego: dia por medio</li>
+                  <li class="list-group-item bg-success text-light">Ubicación: interior</li>
+                </ul>
+                <div class="card-body">
+                  <a href="productos.html" class="card-link text-light">Ir a la tienda</a>
+                </div>
+              </div>
+          </div>
+          <!-- card 2 -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card bg-success text-light" style="width: 18rem;">
+                <img src="img/margarita.jpg" class="card-img-top" alt="imagen de margarita">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Margarita</h5>
+                  <p class="card-text">Pequeñas flores que sirven para ornamentar cualquier balcón.</p>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item bg-success text-light">Sol: moderado</li>
+                  <li class="list-group-item bg-success text-light">Riego: cuando la tierra esté seca</li>
+                  <li class="list-group-item bg-success text-light">Ubicación: exterior</li>
+                </ul>
+                <div class="card-body">
+                  <a href="productos.html" class="card-link text-light">Ir a la tienda</a>
+                </div>
+              </div>
+          </div>
+          <!-- card 3 -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card bg-success text-light" style="width: 18rem;">
+                <img src="img/monstera.jpg" class="card-img-top" alt="imagen de mostera">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Monstera</h5>
+                  <p class="card-text">Esta planta genera un ambiete selvático donde la dejes.</p>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item bg-success text-light">Sol: Media sombra</li>
+                  <li class="list-group-item bg-success text-light">Riego: cuando la tierra esté seca</li>
+                  <li class="list-group-item bg-success text-light">Ubicación: interior</li>
+                </ul>
+                <div class="card-body">
+                  <a href="productos.html" class="card-link text-light">Ir a la tienda</a>
+                </div>
+              </div>
+          </div>
+          <!-- card 4 -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card bg-success text-light" style="width: 18rem;">
+                <img src="img/palmito.jpg" class="card-img-top" alt="imagen de palmito">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Palmito</h5>
+                  <p class="card-text">Una mini palmera en tu casa</p>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item bg-success text-light">Sol: moderado</li>
+                  <li class="list-group-item bg-success text-light">Riego: 1 vez x semana</li>
+                  <li class="list-group-item bg-success text-light">Ubicación: interior</li>
+                </ul>
+                <div class="card-body">
+                  <a href="productos.html" class="card-link text-light">Ir a la tienda</a>
+                </div>
+              </div>
+          </div>
+          <!-- card 5 -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card bg-success text-light" style="width: 18rem;">
+                <img src="img/potus.jpg" class="card-img-top" alt="imagen de potus">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Potus</h5>
+                  <p class="card-text">Planta ideal para cualquier decorar cualquier tipo de ambiente.</p>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item bg-success text-light">Sol: media sombra</li>
+                  <li class="list-group-item bg-success text-light">Riego: dia por medio</li>
+                  <li class="list-group-item bg-success text-light">Ubicación: interior o exterior</li>
+                </ul>
+                <div class="card-body">
+                  <a href="img/sanseviera.jpg" class="card-link text-light">Ir a la tienda</a>
+                </div>              </div>
+          </div>
+          <!-- card 6 -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card bg-success text-light" style="width: 18rem;">
+                <img src="img/suculenta.jpg" class="card-img-top" alt="suculenta">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Suculenta</h5>
+                  <p class="card-text">Parece una planta de juguete.</p>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item bg-success text-light">Sol: media sombra</li>
+                  <li class="list-group-item bg-success text-light">Riego: 1 vez x semana</li>
+                  <li class="list-group-item bg-success text-light">Ubicación: interior o exterior</li>
+                </ul>
+                <div class="card-body">
+                  <a href="productos.html" class="card-link text-light">Ir a la tienda</a>
+                </div>
+              </div>
+          </div>
+          <!-- card 7 -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card bg-success text-light" style="width: 18rem;">
+                <img src="img/aloevera.jpg" class="card-img-top" alt="imagen de aloevera">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Aleo Vera</h5>
+                  <p class="card-text">Planta curativa para el cuidado de la piel.</p>
+                </div>
+                <ul class="list-group">
+                  <li class="list-group-item bg-success text-light">Sol: moderado</li>
+                  <li class="list-group-item bg-success text-light">Riego: 1 vez por semana</li>
+                  <li class="list-group-item bg-success text-light">Ubicación: interior o exterior</li>
+                </ul>
+                <div class="card-body">
+                  <a href="productos.html" class="card-link text-light">Ir a la tienda</a>
+                </div>
+              </div>
+          </div>
+          <!-- Fin de cards -->
+
+        </div>
+        </div>
+
+            <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start mt-5 py-3">
+        <div class="container d-flex flex-column flex-md-row align-items-center">
+            <img src="img/gif-vito y yo.gif" alt="Alexandra Ramirez" width="200" class="rounded-circle mb-3 mb-md-0 me-md-3">
+            
+            <!-- Datos personales -->
+            <div>
+                <h5 class="mb-1">Alexandra Ramirez</h5>
+                <p class="mb-0">Email: alexandra.ramirez@davinci.edu.ar</p>
+                <p class="mb-0">Nacimiento: 21/11/1996</p>
+                <p class="mb-0">Teléfono: 1125304771</p>
+            </div>
+        </div>
+        <div class="text-center p-3">
+            © 2024 Tienda simulator. Creado por Alexandra | Todos los derechos reservados
+        </div>
+      </footer>
+        
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
